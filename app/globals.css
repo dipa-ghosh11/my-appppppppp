@@ -1,26 +1,99 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.seed-1{
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  box-shadow: rgb(201, 201, 201) -2px -3px 0px 0px inset;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 19.2px;
+  font-weight: 700;
+  height: 11.5375px;
+  left: 104.35px;
+  position: absolute;
+  text-align: center;
+  top: 38.475px;
+  transform: matrix(0.939693, -0.34202, 0.34202, 0.939693, 0, 0);
+  unicode-bidi: isolate;
+  width: 34.775px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.seed-1::before{
+  background-color: rgb(255, 255, 255);
+    border-radius: 40%;
+    /* shorthand for all four corners */
+    box-shadow: rgb(201, 201, 201) -1px -3px 0px 0px inset;
+    content: "";
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19.2px;
+    font-weight: 700;
+    height: 11.5375px;
+    left: 62.5875px;
+    position: absolute;
+    text-align: center;
+    top: -5.7625px;
+    transform: matrix(0.5, 0.866025, -0.866025, 0.5, 0, 0);
+    width: 34.775px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.seed-1::after{
+  background-color: rgb(255, 255, 255);
+    border-radius: 40%;
+    /* shorthand for all corners */
+    box-shadow: rgb(201, 201, 201) -1px 2px 0px 0px inset;
+    content: "";
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19.2px;
+    font-weight: 700;
+    height: 11.5375px;
+    left: -59.1125px;
+    position: absolute;
+    text-align: center;
+    top: -29.9875px;
+    transform: matrix(0.5, 0.866025, -0.866025, 0.5, 0, 0);
+    width: 34.775px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.seed-2{
+  background-color: rgb(255, 255, 255);
+    border-radius: 40%;
+    /* shorthand for all corners */
+    box-shadow: rgb(201, 201, 201) -3px 0px 0px 0px inset;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19.2px;
+    font-weight: 700;
+    height: 11.5375px;
+    left: 222.613px;
+    position: absolute;
+    text-align: center;
+    top: 38.475px;
+    transform: matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 0);
+    unicode-bidi: isolate;
+    width: 34.775px;
+}
+
+.seed-2::before{
+    background-color: rgb(255, 255, 255);
+      border-radius: 40%;
+      /* shorthand for all corners */
+      box-shadow: rgb(201, 201, 201) 1px 3px 0px 0px inset;
+      content: "";
+      display: block;
+      font-family: "Open Sans", sans-serif;
+      font-size: 19.2px;
+      font-weight: 700;
+      height: 11.5375px;
+      left: 52.1625px;
+      position: absolute;
+      text-align: center;
+      top: -14.9875px;
+      transform: matrix(0, 1, -1, 0, 0, 0);
+      width: 34.775px;
 }
